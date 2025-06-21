@@ -1,0 +1,3 @@
+- Consider adding comprehensive error handling in the workflow example to manage network timeouts and login failures.
+- Provide a helper module for common email verification tasks to reduce duplication across scripts.
+- Integrate rate limiting controls to avoid automated signups violating site policies.
