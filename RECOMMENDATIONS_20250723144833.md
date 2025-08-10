@@ -1,0 +1,2 @@
+- Add error handling around network failures and invalid login attempts in `multi_api_registration.py`.
+- Consider encrypting stored API keys to prevent accidental exposure.
