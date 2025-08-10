@@ -1,0 +1,8 @@
+{
+  "websites": [
+    {
+      "signup_url": "https://example.com/signup",
+      "api_settings_url": "https://example.com/settings/api"
+    }
+  ]
+}

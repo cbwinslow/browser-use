@@ -14,3 +14,23 @@ Run the example with:
 ```bash
 python auto_api_registration.py
 ```
+
+## Automating Multiple Sites
+
+For registering on several websites, use `multi_api_registration.py`. Create a
+`websites.json` file with entries like:
+
+```json
+{
+  "websites": [
+    {"signup_url": "https://example.com/signup", "api_settings_url": "https://example.com/settings/api"}
+  ]
+}
+```
+
+Set `REG_EMAIL` and `REG_EMAIL_PASSWORD` in your environment as before. You can
+optionally set `WEBSITES_FILE` to the path of your JSON list. Then run:
+
+```bash
+python multi_api_registration.py
+```
